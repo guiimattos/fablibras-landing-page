@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import heroImage from "@/assets/fablibras-hero.png";
+import heroImage from "@/assets/fablibras-hero.jpg";
 import { Button } from "@/components/ui/button";
 import { HandHeart, Brain, GraduationCap, Sparkles, ArrowRight, PlayCircle } from "lucide-react";
 
@@ -86,7 +86,7 @@ function Index() {
               alt="FabLibras — Aprenda Libras e transforme vidas"
               width={720}
               height={490}
-              className="relative rounded-3xl shadow-[var(--shadow-elegant)] object-cover w-full"
+              className="relative rounded-3xl shadow-[var(--shadow-elegant)] object-contain w-full bg-background"
             />
           </div>
         </div>
