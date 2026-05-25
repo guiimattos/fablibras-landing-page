@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import heroImage from "@/assets/hero-libras.jpg";
+import heroImage from "@/assets/fablibras-hero.png";
 import { Button } from "@/components/ui/button";
 import { HandHeart, Brain, GraduationCap, Sparkles, ArrowRight, PlayCircle } from "lucide-react";
 
@@ -83,10 +83,10 @@ function Index() {
             <div className="absolute -inset-4 rounded-3xl bg-[image:var(--gradient-hero)] opacity-20 blur-2xl" aria-hidden />
             <img
               src={heroImage}
-              alt="Pessoas se comunicando em Libras em um ambiente educacional inclusivo"
-              width={1536}
-              height={1024}
-              className="relative rounded-3xl shadow-[var(--shadow-elegant)] object-cover"
+              alt="FabLibras — Aprenda Libras e transforme vidas"
+              width={720}
+              height={490}
+              className="relative rounded-3xl shadow-[var(--shadow-elegant)] object-cover w-full"
             />
           </div>
         </div>
