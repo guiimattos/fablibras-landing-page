@@ -72,14 +72,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Landing Page" },
+      { name: "description", content: "O FABLIBRAS é uma plataforma online criada para promover inclusão, acessibilidade e equidade por meio do ensino da Língua Brasileira de Sinais (LIBRAS)." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Landing Page" },
+      { property: "og:description", content: "O FABLIBRAS é uma plataforma online criada para promover inclusão, acessibilidade e equidade por meio do ensino da Língua Brasileira de Sinais (LIBRAS)." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Landing Page" },
+      { name: "twitter:description", content: "O FABLIBRAS é uma plataforma online criada para promover inclusão, acessibilidade e equidade por meio do ensino da Língua Brasileira de Sinais (LIBRAS)." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/b8dc819a-091d-42cc-a2c6-c60f9e62b516/id-preview-0dc259e4--0c099055-7779-45d1-9f0b-68421724a905.lovable.app-1779739706624.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/b8dc819a-091d-42cc-a2c6-c60f9e62b516/id-preview-0dc259e4--0c099055-7779-45d1-9f0b-68421724a905.lovable.app-1779739706624.png" },
     ],
     links: [
       {
