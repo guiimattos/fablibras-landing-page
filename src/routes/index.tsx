@@ -74,9 +74,7 @@ function Index() {
             <div className="flex items-center gap-6 pt-2 text-sm text-muted-foreground">
               <div><strong className="text-foreground text-lg">+10M</strong><br/>brasileiros surdos</div>
               <div className="h-8 w-px bg-border" />
-              <div><strong className="text-foreground text-lg">1h30</strong><br/>de conteúdo</div>
-              <div className="h-8 w-px bg-border" />
-              <div><strong className="text-foreground text-lg">ODS 4 e 10</strong><br/>alinhado à ONU</div>
+              <div><strong className="text-foreground text-lg">ODS 4, 10 e 11</strong><br/>alinhado à ONU</div>
             </div>
           </div>
           <div className="relative">
@@ -84,8 +82,8 @@ function Index() {
             <img
               src={heroImage}
               alt="FabLibras — Aprenda Libras e transforme vidas"
-              width={720}
-              height={490}
+              width={1280}
+              height={500}
               className="relative rounded-3xl shadow-[var(--shadow-elegant)] object-contain w-full bg-background"
             />
           </div>
